@@ -1,0 +1,298 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    background: #ddd;
+    height: 1px;
+    
+}
+
+
+/* header part start */
+
+.header{
+    background: #f5f5f5;
+}
+
+.dft-btn-1 {
+    display: block;
+    width: 45%;
+    border: 2px solid #ddd !important;
+    background: #b7472a;
+    color: white;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.dft-btn-1:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 20px #ddd;
+    color: #b7472a;
+    background: white;
+    border: 2px solid #b7472a !important;
+    transition: .7s;
+}
+
+
+.dft-btn-2 {
+    display: block;
+    width: 45%;
+    border: 2px solid #b7472a !important;
+    background: white;
+    color: #b7472a;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.dft-btn-2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    color: white;
+    text-decoration: none;
+    background: #b7472a;
+    transition: .7s;
+}
+
+/* retired section */
+
+.retired{
+    height: 230px;
+    background: #b7472a;
+    margin-bottom: 150px !important;
+}
+
+.retired-title{}
+
+.retired-p-1 {
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.retired-p-2{
+    font-size: 15px;
+}
+
+.retured-link-1:hover{
+    text-shadow: 1px 1px 2px black;
+}
+.retured-link-2:hover{
+    text-shadow: 1px 1px 2px black;
+}
+
+/* fature section start */
+
+.feature-images{
+    text-align: center;
+}
+
+.feature-title {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.featuer-titles{
+    margin: 0 auto ;
+}
+
+
+
+/* presentations section */
+.presentations{
+    border-bottom: 1px solid #ddd;
+}
+.presentations-title {
+    font-weight: 600;
+}
+.presentations-text {
+    font-size: 18px;
+    
+}
+
+/* story section */
+
+.story{
+    background: #f5f5f5;
+}
+
+/* comparison section */
+.comparison{
+    
+}
+
+
+.comparison-title{
+    margin: 0 auto;
+}
+
+.com-right-title{
+    font-size: 14px;
+}
+
+.com-list-h4{
+    font-size: 16px;
+}
+
+.com-list-p{
+    font-size: 15px;
+}
+
+/* M365 section */
+
+.M365{
+    height: 300px;
+    background: #f5f5f5;
+    margin-bottom: 100px;
+}
+
+.M36-titles{
+    font-size: 35px;
+    margin-top: 90px;
+
+}
+
+.btn-3 {
+    margin-right: 5px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background: #b7472a;
+}
+
+.btn-3:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 20px #ddd;
+    color: #b7472a;
+    background: white;
+    border: 1px solid #b7472a;
+    transition: .7s;
+
+}
+
+.btn-4 {
+    border: 1px solid #b7472a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #b7472a;
+    background: white;
+}
+
+.btn-4:hover {
+    color: white;
+    text-decoration: none;
+    background: #b7472a;
+    box-shadow: 1px 1px 20px #ddd;
+    transition: .7s;
+}
+/* M360 SECTION END*/
+
+/* accordion section start */
+
+.accordian-section{
+    /* height: 600px; */
+}
+.accordian-title{}
+.font-weight-bold {
+    font-weight: 700 !important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* resources section start */
+.resources{
+    height: 550px;
+}
+
+.resourse-link-1 span {
+    color: #007bff;
+}
+.resourse-link-2 span{
+    color: #007bff;
+}
+
+.resourse-link-2{
+    /* margin-bottom: 30px; */
+}
+/* resource section end */
+
+/* information section start */
+
+.info-h6{
+    font-size: 12px;
+}
+
+/* information section end */
+
+/* follow section start */
+
+.follow-section{
+    height: 90px;
+}
+
+.follow-text{
+    font-size: 20px;
+}
+
+/* follow section end */
+
+
+/* footer section start */
+
+.footer-section{
+    background: #f2f2f2;
+}
+
+.footer-titles{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+    /* margin-top: 40px; */
+}
+
+.footer-option a{
+    display: block;
+    margin-bottom: 10px;
+    color: #616161;
+    font-size: 13px;
+     margin-left: 5px;  
+    text-align: justify;
+   
+}
+
+.footer-list-item {
+    text-align: right;
+    margin-top: 70px;
+}
+
+.footer-list-item a{
+    color: #616161;
+    font-size: 13px;
+    padding-right: 8px;
+}
+
+.footer-list-item span{
+    font-size: 13px;
+}
+
+/* footer section end */
+
+
+
+
